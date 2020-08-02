@@ -16,3 +16,17 @@
 - Added create and findByName methods to product typeorm repository
 - Created CreateProduct service, injecting the products repository singleton
 - Created products controller, using the createProductService singleton
+
+## Create order
+
+- Created orders table migration
+- Created orders_products pivot table migration
+- Created order entity
+- Created orders_products entity
+- Added relation to orders_products entity inside order and product entities
+- Registered orders repository singleton
+- Added create and findById methods to order typeorm repository
+- Created createOrder service
+- Created findOrder service
+- Created orders controller
+- Fixed updateQuantity on Products repository
